@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --cor0: #03045E;
-    --cor1: #0077B6;
+    --cor0: blue;
+    --cor1: #367cdd;
     --cor2: #00B4D8;
     --cor3: #90E0EF;
     --cor4: #CAF0F8;
@@ -22,11 +22,11 @@
 }
 
 body, html {
-    background-color: #90E0EF;
+    background-color: #c1cfda
 }
 
 header {
-    background-color: blue;
+    background-image: linear-gradient(to bottom, blue, #367cdd);
 }
 
 header > h1 {
@@ -37,7 +37,7 @@ header > h1 {
 }
 
 span#burguer {
-    background-color: #00B4D8;
+    background-color: #033ceb;
     color: white;
     display: block;
     text-align: center;
@@ -46,7 +46,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: gray;
+    background-color: #00B4D8;
     color: white;
     
 }
@@ -64,9 +64,9 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: #048eaa;
+    background-color: #033ceb;
     color: white;
-    border-top: 2px solid #00B4D8;
+    border-top: 2px solid #367cdd;
 }
 
 menu > ul > li > a:hover {
@@ -83,6 +83,7 @@ main {
 }
 
 article > h2 {
+    text-align: center;
     padding-bottom: 20px;
 }
 

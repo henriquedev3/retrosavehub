@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 992px ) {
+@media screen and (min-width: 667px) {
     span#burguer {
         display: none;
     }
+
 
     menu {
         text-align: center;
@@ -17,6 +18,6 @@
     }
 
     main {
-        width: px;
+        width: 60vw;
     }
 }
