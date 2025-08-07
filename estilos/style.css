@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root {
-    --cor0: blue;
-    --cor1: #367cdd;
-    --cor2: #00B4D8;
+    --cor0: blue;     /* cor do header */
+    --cor1: #367cdd;  /* cor do header degrade */
+    --cor2: #74A4BC;  /* cor do body e html */
     --cor3: #90E0EF;
-    --cor4: #CAF0F8;
+    --cor4: #c1cfda;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
 }
 
 body, html {
-    background-color: #c1cfda
+    background-color: #74A4BC;
 }
 
 header {
