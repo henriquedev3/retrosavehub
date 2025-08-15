@@ -96,3 +96,36 @@ article > p {
 ul#topicos {
     padding-left: 40px;
 }
+/* PAGINA 2 */
+
+caption { 
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+table {
+    margin: auto;
+    width: 400px;
+    border-collapse: collapse;
+}
+td, th {
+     border: 1px solid black;          
+}
+td {
+    text-indent: 10px;
+    padding-top: 5px;
+}
+td > a {
+    color: blue;
+    text-decoration: none;
+}
+tbody > tr > td > a:hover {
+    background-color: #00B4D8;
+    color: white;
+}
+td.sigla {
+    background-color: lightgray;
+}
