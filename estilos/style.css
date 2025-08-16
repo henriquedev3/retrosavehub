@@ -128,4 +128,6 @@ tbody > tr > td > a:hover {
 }
 td.sigla {
     background-color: lightgray;
+    text-align: center;
+    padding-right: 5px;
 }
