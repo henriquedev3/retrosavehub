@@ -115,6 +115,7 @@ td, th {
      border: 1px solid black;          
 }
 td {
+    text-align: justify;
     text-indent: 10px;
     padding-top: 5px;
 }
