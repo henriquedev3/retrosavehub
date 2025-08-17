@@ -79,7 +79,7 @@ main {
     margin: auto;
     margin-top: 10px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px;       
 }
 
 article > h2 {
@@ -131,3 +131,9 @@ td.sigla {
     text-align: center;
     padding-right: 5px;
 }
+td.gb {
+    text-align:left;
+    font-size: 12px;
+    padding: 0px;   
+}
+
